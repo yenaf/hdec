@@ -1,9 +1,8 @@
 #wrap {
   width: 100%;
-  min-width: 1600px;
 }
 .inner {
-  width: 1380px;
+  max-width: 1380px;
   margin: auto;
   position: relative;
   box-sizing: border-box;
@@ -16,7 +15,6 @@
   z-index: 100;
 }
 #header .inner {
-  height: 100px;
   display: flex;
 }
 #header h1 {
@@ -183,10 +181,6 @@
   padding: 80px 0;
   justify-content: center;
 }
-.site-map .gnb > li {
-}
-.site-map .gnb > li:last-child {
-}
 .site-map .gnb > li a {
   font-size: 20px;
   font-weight: 500;
@@ -289,7 +283,6 @@
 #mainVisual {
   width: 100%;
   position: relative;
-  height: 1000px;
 }
 #mainVisual h2 {
   width: 100%;
